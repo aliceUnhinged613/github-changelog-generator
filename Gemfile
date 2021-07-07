@@ -27,5 +27,5 @@ group :test do
   gem "rspec_junit_formatter"
   gem "simplecov", "~>0.10", require: false
   gem "vcr"
-  gem "webmock"
+  gem "webmock", ">= 3.8.3"
 end
